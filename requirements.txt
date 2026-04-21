@@ -1,0 +1,19 @@
+# Raspberry Pi Sorting System Requirements
+
+# Core dependencies
+tensorflow==2.13.0
+numpy==1.24.3
+opencv-python==4.8.0.76
+Pillow==10.0.0
+
+# Raspberry Pi specific
+picamera2==0.3.14
+RPi.GPIO==0.7.0
+pyserial==3.5
+
+# Web dashboard
+streamlit==1.28.1
+pandas==2.0.3
+
+# Optional: for development
+pytest==7.4.0
